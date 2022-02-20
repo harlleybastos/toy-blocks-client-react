@@ -1,6 +1,6 @@
 import { AnyAction, configureStore, EnhancedStore } from "@reduxjs/toolkit";
 import { ThunkMiddleware } from "redux-thunk";
-import nodesReducer, { checkNodeStatus, NodesState } from "../reducers/nodes";
+import nodesReducer, { checkNodeStatus, NodesState } from "../reducers/nodes/nodes";
 
 describe("Store", () => {
   const nodes = {

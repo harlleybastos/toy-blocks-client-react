@@ -22,7 +22,8 @@ exports[`<Nodes /> should match snapshot 1`] = `
   >
     <div
       aria-expanded={false}
-      className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-n997py-MuiButtonBase-root-MuiAccordionSummary-root"
+      className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-122h9y0-MuiButtonBase-root-MuiAccordionSummary-root"
+      disabledicon="false"
       onBlur={[Function]}
       onClick={[Function]}
       onContextMenu={[Function]}
@@ -66,7 +67,7 @@ exports[`<Nodes /> should match snapshot 1`] = `
               className="css-1y3s8m3"
             />
             <span
-              className="css-10g39r7"
+              className="css-1y90rht"
             >
               OFFLINE
             </span>
@@ -109,13 +110,7 @@ exports[`<Nodes /> should match snapshot 1`] = `
           >
             <div
               className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
-              >
-                Blocks go here
-              </p>
-            </div>
+            />
           </div>
         </div>
       </div>
@@ -126,7 +121,8 @@ exports[`<Nodes /> should match snapshot 1`] = `
   >
     <div
       aria-expanded={false}
-      className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-n997py-MuiButtonBase-root-MuiAccordionSummary-root"
+      className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-122h9y0-MuiButtonBase-root-MuiAccordionSummary-root"
+      disabledicon="false"
       onBlur={[Function]}
       onClick={[Function]}
       onContextMenu={[Function]}
@@ -170,7 +166,7 @@ exports[`<Nodes /> should match snapshot 1`] = `
               className="css-1y3s8m3"
             />
             <span
-              className="css-10g39r7"
+              className="css-1y90rht"
             >
               OFFLINE
             </span>
@@ -213,13 +209,7 @@ exports[`<Nodes /> should match snapshot 1`] = `
           >
             <div
               className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
-              >
-                Blocks go here
-              </p>
-            </div>
+            />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import initialState from "./initialState";
-import { Node } from "../types/Node";
-import { RootState } from "../store/configureStore";
+import { Node } from "../../types/Node";
+import { RootState } from "../../store/configureStore";
 import fetch from "cross-fetch";
 
 export interface NodesState {
@@ -22,7 +22,9 @@ export const checkNodesStatus = createAsyncThunk(
   async (nodes: Node[], thunkAPI) => {
     const { dispatch } = thunkAPI;
     nodes.forEach((node) => {
-      dispatch(checkNodeStatus(node));
+      if (!node.url.includes("http://localhost")) {
+        dispatch(checkNodeStatus(node));
+      }
     });
   }
 );

@@ -1,6 +1,6 @@
 import mockFetch from "cross-fetch";
 import reducer, { checkNodeStatus } from "./nodes";
-import { Node } from "../types/Node";
+import { Node } from "../../types/Node";
 import initialState from "./initialState";
 
 jest.mock("cross-fetch");

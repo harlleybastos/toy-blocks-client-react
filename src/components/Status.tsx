@@ -28,13 +28,14 @@ const SpanDot = styled("span", {
 const SpanText = styled("span", {
   shouldForwardProp: (prop) => prop !== "online",
 })<{ online: boolean }>(({ online }) => ({
-  fontSize: 14,
+  fontSize: 12,
   display: "block",
   lineHeight: 1.5,
-  fontWeight: 400,
-  letterSpacing: 1,
+  fontWeight: "bold",
+  letterSpacing: .8,
   paddingLeft: 5,
   color: online ? colors.text : colors.faded,
+  fontFamily: 'monospace',
 }));
 
 const Status: React.FC<Props> = ({ online, loading }) => {

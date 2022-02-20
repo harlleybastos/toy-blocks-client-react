@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import { create } from "react-test-renderer";
 import ConnectedNodes from "./Nodes";
 import Node from "../components/Node";
-import { checkNodesStatus } from "../reducers/nodes";
+import { checkNodesStatus } from "../reducers/nodes/nodes";
 
 describe("<Nodes />", () => {
   const nodes = {
